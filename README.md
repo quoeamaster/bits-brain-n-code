@@ -55,5 +55,5 @@ If you find this useful, please star the repo ⭐ and share it with friends.
 ---
 
 ### References
-[box drawing - borders](https://en.wikipedia.org/wiki/Box-drawing_characters) 
-[compart unicode characters](https://www.compart.com/en/unicode/search?q=brain#characters)
+- [box drawing - borders](https://en.wikipedia.org/wiki/Box-drawing_characters) 
+- [compart unicode characters](https://www.compart.com/en/unicode/search?q=brain#characters)
