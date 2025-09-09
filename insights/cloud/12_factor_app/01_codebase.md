@@ -54,9 +54,6 @@ A __DEPLOY__ is a __running instance__ of the app. This is typically a productio
 
 The codebase is the same across all deploys, BUT different versions may be active in each deploy. For example, a developer has some commits not yet deployed to staging; staging has some commits not yet deployed to production. But they all share the same codebase, thus making them identifiable as different deploys of the same app.
 
-<pre>
-A more practical use case is when the latest major version of a SAAS is v22.6.1.0; whilst most of the existing customers' deployment is still running the previous major version v22.4.9.13. This is exactly 1 app (same codebase) many deploys (diff versions for diff sets of customers). Ultimately, the remaining set of customers would enjoy the upgrade of their deployment to reach the latest v22.6.1.0
-</pre>
 <!-- notes block -->
 <details>
     <summary>💡 notes</summary>
