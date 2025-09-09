@@ -25,7 +25,7 @@ Hm... sounds like __SAAS__ would be a better solution for modern software develo
 
 ---
 
-### 📖 &nbsp;What is <span style='color: #FF9900'>twelve factor app</span> approach then?
+### 📖 &nbsp;What is <span style='color: #FF9900'>Twelve Factor App</span> approach then?
 
 In the old days when software products are limited to access the internet (for many reasons, including security concerns), most software are designed to be self-serviced, embrace as a standalone binary and not able to scale. 
 
@@ -34,11 +34,11 @@ In modern days, software is expected to operate on cloud service providers, able
 Due to these new / expected software features, the core design approaches would need a new set of theories and that is how __Twelve Factor Apps__ emerged.
 
 It is a methodology for building software-as-a-service apps that
-- <span style='color: #32CD32'>DECLARATIVE</span> - applying to setup automation. Aim is to minimize time and cost for new developers to join the development. Instead of manual configure the parameters for the source code to run / build, all such information are declared as a config file and not depending on scripts or makefiles.
-- <span style='color: #32CD32'>PORTABILITY</span> - reducing underlying operating system's dependencies on code logics (e.g. avoid using OS specific API or features to fulfill a software level function); hence able to maximize portability between different OS platforms.
-- <span style='color: #32CD32'>CLOUD-NATIVE</span> - eliminating the needs to manage servers and OS administrations.
-- <span style='color: #32CD32'>INTEGRITY</span> - minimize divergence between development and production, as SAAS typically maintains 1 major version instead of multiple branches or revisions hence offering maximum benefits for __Continuous Deployment__.
-- <span style='color: #32CD32'>SCALE</span> - able to scale up and down and yet not affecting the infrastructure and development practices.
+- __<span style='color: #32CD32'>DECLARATIVE</span>__ - applying to setup automation. Aim is to minimize time and cost for new developers to join the development. Instead of manual configure the parameters for the source code to run / build, all such information are declared as a config file and not depending on scripts or makefiles.
+- __<span style='color: #32CD32'>PORTABILITY</span>__ - reducing underlying operating system's dependencies on code logics (e.g. avoid using OS specific API or features to fulfill a software level function); hence able to maximize portability between different OS platforms.
+- __<span style='color: #32CD32'>CLOUD-NATIVE</span>__ - eliminating the needs to manage servers and OS administrations.
+- __<span style='color: #32CD32'>INTEGRITY</span>__ - minimize divergence between development and production, as SAAS typically maintains 1 major version instead of multiple branches or revisions hence offering maximum benefits for __Continuous Deployment__.
+- __<span style='color: #32CD32'>SCALE</span>__ - able to scale up and down and yet not affecting the infrastructure and development practices.
 
 More importantly, the __twelve-factor__ methodology is not limited to a specific programming language or a set of backing services. That actually grants us lots of freedom on picking the correct programming language as well as the backing services (database, queue, memory cache) to form a sustainable SAAS.
 
