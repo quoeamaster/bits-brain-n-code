@@ -46,7 +46,7 @@ PS. the __twelve-factor__ methodology is written by contributors who have develo
 
 As the name depicts, there are 12 areas / disciplines to embrace for a sustainable SAAS, as follows:
 - <span style='color: #FF9900'>[codebase](12_factor_app/01_codebase.md)</span> - Only __ONE__ codebase tracked in revision control, but __MANY__ deploys
-- <span style='color: #FF9900'>dependencies</span> - Explicitly declare and isolate dependencies, being __DECLARATIVE__
+- <span style='color: #FF9900'>[dependencies](12_factor_app/02_dependencies.md)</span> - Explicitly declare and isolate dependencies, being __DECLARATIVE__
 - <span style='color: #FF9900'>config</span> - Store config in the environment (as ENVironment VARiables)
 - <span style='color: #FF9900'>backing services</span><!-- - Treat backing services as attached resources -->
 - <span style='color: #FF9900'>build, release, run</span><!-- - Strictly separate build and run stages -->
