@@ -21,6 +21,7 @@ A copy of the revision tracking database is known as a <span style='color: #32CD
 
 <!-- notes block -->
 <details>
+    <summary>💡 notes</summary>
     <div style='margin-left: 40px; margin-right: 40px; padding-left: 12px; padding: 12px; margin-top: 0.5em; margin-bottom: 0.5em; background: #444;'>
     Simply means 1 codebase = 1 app, many app(s) join together to become a distributed system. <br/>
     At a point, we can say an app is providing functions on a specific area, whilst a combo of related apps formed the system that chains up the functions.
@@ -32,6 +33,7 @@ A copy of the revision tracking database is known as a <span style='color: #32CD
 
 <!-- notes block -->
 <details>
+    <summary>💡 notes</summary>
     <div style='margin-left: 40px; margin-right: 40px; padding-left: 12px; padding: 12px; margin-top: 0.5em; margin-bottom: 0.5em; background: #444;'>
     take an example, the logging logic could be factored out as a shared library between apps.
     </div>
@@ -44,6 +46,7 @@ A __DEPLOY__ is a __running instance__ of the app. This is typically a productio
 
 <!-- notes block -->
 <details>
+    <summary>💡 notes</summary>
     <div style='margin-left: 40px; margin-right: 40px; padding-left: 12px; padding: 12px; margin-top: 0.5em; margin-bottom: 0.5em; background: #444;'>
     in general, a running / runnable instance of the app is a deployment; it doesn't need to be production or staging or uat, local running instance is also treated as a deployment.
     </div>
@@ -53,6 +56,7 @@ The codebase is the same across all deploys, BUT different versions may be activ
 
 <!-- notes block -->
 <details>
+    <summary>💡 notes</summary>
     <div style='margin-left: 40px; margin-right: 40px; padding-left: 12px; padding: 12px; margin-top: 0.5em; margin-bottom: 0.5em; background: #444;'>
     A more practical use case is when the latest major version of a SAAS is v22.6.1.0; whilst most of the existing customers' deployment is still running the previous major version v22.4.9.13. This is exactly 1 app (same codebase) many deploys (diff versions for diff sets of customers). Ultimately, the remaining set of customers would enjoy the upgrade of their deployment to reach the latest v22.6.1.0
     </div>
