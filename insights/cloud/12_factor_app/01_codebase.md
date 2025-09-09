@@ -2,9 +2,9 @@
 
 <span style='font-size: 1.2em;'>✐ &nbsp; One codebase tracked in revision control, many deploys</span>
 
-### 🍎 study notes
+## 🍎 study notes
 
-✐&nbsp;<span style='color: #FF9900'>Codebase and Repository</span>
+### ✐&nbsp;<span style='color: #FF9900'>Codebase and Repository</span>
 
 A __twelve-factor__ app is always tracked in a version control system, example 
   - Git, 
@@ -14,7 +14,7 @@ A __twelve-factor__ app is always tracked in a version control system, example
 
 A copy of the revision tracking database is known as a <span style='color: #32CD32'>code repository</span>, often referred as <span style='color: #32CD32'>code repo</span> or simply <span style='color: #32CD32'>repo</span>. A codebase is any single repo (such as Subversion) or any set of repos who share a root commit (in a decentralized revision control system like Git).
 
-✐&nbsp;<span style='color: #FF9900'>There is always a one-to-one correlation between the codebase and the app</span>
+### ✐&nbsp;<span style='color: #FF9900'>There is always a one-to-one correlation between the codebase and the app</span>
 - If there are multiple codebases, it is a <span style='color: #32CD32'>Distributed System</span>. 
 - Each component in a distributed system is an <span style='color: #32CD32'>app</span>. 
 - Each component / app can embrace the twelve-factor principles separately. 
@@ -34,7 +34,7 @@ take an example, the logging logic could be factored out as a shared library bet
 </div>
 <br/>
 
-✐&nbsp;<span style='color: #FF9900'>There is only one codebase per app, but there will be many deploys of the app</span>
+### ✐&nbsp;<span style='color: #FF9900'>There is only one codebase per app, but there will be many deploys of the app</span>
 
 A __DEPLOY__ is a __running instance__ of the app. This is typically a production site, and one or more staging sites. Also, every developer has a copy of the app running in their local development environment, each of which also qualifies as a deploy.
 
@@ -46,9 +46,11 @@ in general, a running / runnable instance of the app is a deployment; it doesn't
 The codebase is the same across all deploys, BUT different versions may be active in each deploy. For example, a developer has some commits not yet deployed to staging; staging has some commits not yet deployed to production. But they all share the same codebase, thus making them identifiable as different deploys of the same app.
 
 <!-- notes block -->
+<details>
 <div style='margin-left: 40px; margin-right: 40px; padding-left: 12px; padding: 12px; margin-top: 0.5em; margin-bottom: 0.5em; background: #444;'>
 A more practical use case is when the latest major version of a SAAS is v22.6.1.0; whilst most of the existing customers' deployment is still running the previous major version v22.4.9.13. This is exactly 1 app (same codebase) many deploys (diff versions for diff sets of customers). Ultimately, the remaining set of customers would enjoy the upgrade of their deployment to reach the latest v22.6.1.0
 </div>
+</details>
 <br/>
 
 ---
